@@ -1,0 +1,262 @@
+body {
+    background-color: rgb(5, 0, 56);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(5, 0, 56);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.navbar-collapse {
+    margin-left: 600px;
+}
+
+.header-img {
+    width: 80px;
+    border: none;
+    border-radius: 80px;
+}
+
+.navbar-name {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 10px;
+    color: rgb(5, 0, 56);
+}
+
+.nav-item {
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.nav-item :hover {
+    color: rgb(5, 0, 56);
+    text-decoration: underline;
+}
+
+.nav-item :active {
+    color: white;
+}
+
+.nav-link {
+    color: rgb(5, 0, 56);
+    font-weight: bolder;
+}
+
+.container-fluid {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(5, 0, 56);
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.body {
+    background-color: rgb(5, 0, 56);
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+.body-span {
+    font-weight: bolder;
+}
+
+.body-image {
+    width: 500px;
+    padding: 10px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.body-text {
+    color: white;
+    padding: 10px;
+    font-weight: 30px;
+    font-size: 50px;
+    word-spacing: 5px;
+
+}
+
+.body-text2 {
+    margin-left: 130px;
+    padding-right: 40px;
+
+
+}
+
+.body-text3 {
+    color: white;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.body-text4 {
+    color: white;
+    width: 700px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.body-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.btn {
+    border: solid;
+    border-color: white;
+    background-color: white;
+    padding: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+
+.btn:hover {
+    background-color: rgb(30, 21, 122);
+    border: solid;
+    border-color: white;
+    text-decoration: underline;
+    color: white;
+
+}
+
+.btn2 {
+
+    border: solid;
+
+    color: rgb(5, 0, 56);
+    font-weight: bolder;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.btn2:hover {
+    background-color: rgb(30, 21, 122);
+    color: white;
+    text-decoration: underline;
+}
+
+.btn2:active {
+    cursor: wait;
+
+}
+
+.span2 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.img-info {
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.img-info1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 300px;
+    font-weight: bolder;
+}
+
+.journey {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    padding: 10px;
+    width: 400px;
+}
+
+.journey-1 {
+    border-width: 2px;
+    border: solid;
+    border-radius: 2px;
+    background-color: white;
+    width: 100%;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.journey-1:hover {
+    color: white;
+    background-color: rgb(30, 21, 122);
+}
+
+.body-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    padding-left: 190px;
+    margin-top: 120px;
+}
+
+.image-2 {
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+}
+
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.dropdown-item {
+    color: rgb(5, 0, 56);
+    font-weight: bolder;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(5, 0, 56);
+    color: white;
+}
+
+.journey-1>p {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+
+}
+
+.search-bar {
+    width: 700px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    border: none;
+}
